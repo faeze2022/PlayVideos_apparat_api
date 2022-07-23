@@ -1,0 +1,2 @@
+rootProject.name='Apparat_retrofit'
+include ':app'

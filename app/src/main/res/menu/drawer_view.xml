@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group
+
+        android:id="@+id/first_group"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/first_frag_home"
+            android:icon="@drawable/ic_home_24dp"
+            android:title="صفحه اول" />
+        <item
+            android:id="@+id/secont_frag_video"
+            android:icon="@drawable/ic_videocam_24dp"
+            android:title="ویدئوهای من"
+
+            />
+    </group>
+    <group
+        android:id="@+id/second_group"
+        android:visible="true">
+        <item
+            android:id="@+id/info"
+            android:icon="@drawable/ic_info_24dp"
+            android:title="درباره ما" />
+
+
+    </group>
+
+
+</menu>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="100"
+    tools:context=".Activity.PlayVideoCat">
+    <WebView
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_weight="80"
+        android:id="@+id/webview"/>
+    <net.cachapa.expandablelayout.ExpandableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:el_duration="1000"
+        app:el_expanded="true"
+        app:el_parallax="0.5"
+        android:id="@+id/expand1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:weightSum="3">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:gravity="right"
+                android:textColor="@color/color_font_title"
+                android:textSize="25dp"
+                android:maxLines="2"
+                android:layout_marginTop="7dp"
+                android:layout_marginRight="7dp"
+                android:layout_marginLeft="7dp"
+                android:text="عنوان"
+                android:textStyle="bold"
+                android:id="@+id/tv_titl_video"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="7dp"
+                android:layout_marginLeft="7dp"
+                android:layout_weight="1"
+                android:weightSum="2">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/tv_visitcnt_video"
+                    android:text="تعداد بازدید"
+                    android:gravity="right"
+                    android:textColor="@color/color_font_text"
+                    android:drawableRight="@drawable/eye_24"
+                    android:drawablePadding="8dp"
+                    android:layout_weight="1"/>
+
+                <TextView
+                    android:id="@+id/tv_download"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:layout_weight="1"
+                    android:drawableRight="@drawable/icons_24"
+                    android:drawablePadding="8dp"
+                    android:gravity="right"
+                    android:onClick="true"
+                    android:padding="4dp"
+                    android:text="دانلود"
+                    tools:ignore="OnClick,TouchTargetSizeCheck" />
+
+            </LinearLayout>
+        </LinearLayout>
+    </net.cachapa.expandablelayout.ExpandableLayout>
+</LinearLayout>

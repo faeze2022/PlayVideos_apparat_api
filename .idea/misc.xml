@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/project/Apparat_retrofit/app/src/main/res/drawable/ic_baseline_art.xml" value="0.14375" />
+        <entry key="..\:/project/Apparat_retrofit/app/src/main/res/drawable/ic_baseline_games.xml" value="0.14375" />
+        <entry key="..\:/project/Apparat_retrofit/app/src/main/res/drawable/ic_baseline_sports.xml" value="0.14375" />
+        <entry key="..\:/project/Apparat_retrofit/app/src/main/res/drawable/ic_grade.xml" value="0.14375" />
+        <entry key="..\:/project/Apparat_retrofit/app/src/main/res/layout/activity_art.xml" value="0.11277173913043478" />
+        <entry key="..\:/project/Apparat_retrofit/app/src/main/res/layout/activity_create_account.xml" value="0.18" />
+        <entry key="..\:/project/Apparat_retrofit/app/src/main/res/layout/activity_game.xml" value="0.11277173913043478" />
+        <entry key="..\:/project/Apparat_retrofit/app/src/main/res/layout/activity_list_users.xml" value="0.17552083333333332" />
+        <entry key="..\:/project/Apparat_retrofit/app/src/main/res/layout/activity_login.xml" value="0.2" />
+        <entry key="..\:/project/Apparat_retrofit/app/src/main/res/layout/activity_main.xml" value="0.11820652173913043" />
+        <entry key="..\:/project/Apparat_retrofit/app/src/main/res/layout/activity_music.xml" value="0.11224489795918367" />
+        <entry key="..\:/project/Apparat_retrofit/app/src/main/res/layout/activity_play_video_cat.xml" value="0.11277173913043478" />
+        <entry key="..\:/project/Apparat_retrofit/app/src/main/res/layout/activity_search.xml" value="0.1" />
+        <entry key="..\:/project/Apparat_retrofit/app/src/main/res/layout/activity_sport.xml" value="0.11277173913043478" />
+        <entry key="..\:/project/Apparat_retrofit/app/src/main/res/layout/activity_users_list.xml" value="0.18125" />
+        <entry key="..\:/project/Apparat_retrofit/app/src/main/res/layout/fragment_about_us.xml" value="0.25" />
+        <entry key="..\:/project/Apparat_retrofit/app/src/main/res/layout/fragment_cat.xml" value="0.13125" />
+        <entry key="..\:/project/Apparat_retrofit/app/src/main/res/layout/fragment_download.xml" value="0.11277173913043478" />
+        <entry key="..\:/project/Apparat_retrofit/app/src/main/res/layout/fragment_home.xml" value="0.12395833333333334" />
+        <entry key="..\:/project/Apparat_retrofit/app/src/main/res/layout/fragment_myvideo.xml" value="0.11277173913043478" />
+        <entry key="..\:/project/Apparat_retrofit/app/src/main/res/layout/game_item.xml" value="0.14" />
+        <entry key="..\:/project/Apparat_retrofit/app/src/main/res/layout/item_art.xml" value="0.2" />
+        <entry key="..\:/project/Apparat_retrofit/app/src/main/res/layout/item_home.xml" value="0.16" />
+        <entry key="..\:/project/Apparat_retrofit/app/src/main/res/layout/item_music.xml" value="0.20416666666666666" />
+        <entry key="..\:/project/Apparat_retrofit/app/src/main/res/layout/item_user_recycler.xml" value="0.25" />
+        <entry key="..\:/project/Apparat_retrofit/app/src/main/res/layout/nav_header.xml" value="0.18" />
+        <entry key="..\:/project/Apparat_retrofit/app/src/main/res/layout/sport_item.xml" value="0.1" />
+        <entry key="..\:/project/Apparat_retrofit/app/src/main/res/layout/toolbar.xml" value="0.11277173913043478" />
+        <entry key="..\:/project/Apparat_retrofit/app/src/main/res/layout/users_list.xml" value="0.17604166666666668" />
+        <entry key="..\:/project/Apparat_retrofit/app/src/main/res/menu/bottom_nav.xml" value="0.10364583333333334" />
+        <entry key="..\:/project/Apparat_retrofit/app/src/main/res/menu/main_menu.xml" value="0.19947916666666668" />
+        <entry key="..\:/project/backup/Apparat_retrofit/app/src/main/res/font/arial.xml" value="0.19907407407407407" />
+        <entry key="..\:/project/backup/Apparat_retrofit/app/src/main/res/layout-v26/item_home.xml" value="0.13697916666666668" />
+        <entry key="..\:/project/backup/Apparat_retrofit/app/src/main/res/layout/activity_art.xml" value="0.1" />
+        <entry key="..\:/project/backup/Apparat_retrofit/app/src/main/res/layout/activity_create_account.xml" value="0.1" />
+        <entry key="..\:/project/backup/Apparat_retrofit/app/src/main/res/layout/activity_login.xml" value="0.1" />
+        <entry key="..\:/project/backup/Apparat_retrofit/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/project/backup/Apparat_retrofit/app/src/main/res/layout/activity_music.xml" value="0.12395833333333334" />
+        <entry key="..\:/project/backup/Apparat_retrofit/app/src/main/res/layout/activity_play_video_cat.xml" value="0.1" />
+        <entry key="..\:/project/backup/Apparat_retrofit/app/src/main/res/layout/activity_sport.xml" value="0.12395833333333334" />
+        <entry key="..\:/project/backup/Apparat_retrofit/app/src/main/res/layout/fragment_about_us.xml" value="0.20416666666666666" />
+        <entry key="..\:/project/backup/Apparat_retrofit/app/src/main/res/layout/fragment_cat.xml" value="0.1" />
+        <entry key="..\:/project/backup/Apparat_retrofit/app/src/main/res/layout/fragment_download.xml" value="0.1" />
+        <entry key="..\:/project/backup/Apparat_retrofit/app/src/main/res/layout/fragment_home.xml" value="0.1" />
+        <entry key="..\:/project/backup/Apparat_retrofit/app/src/main/res/layout/game_item.xml" value="0.1" />
+        <entry key="..\:/project/backup/Apparat_retrofit/app/src/main/res/layout/item_art.xml" value="0.1" />
+        <entry key="..\:/project/backup/Apparat_retrofit/app/src/main/res/layout/item_home.xml" value="0.1" />
+        <entry key="..\:/project/backup/Apparat_retrofit/app/src/main/res/layout/item_music.xml" value="0.1" />
+        <entry key="..\:/project/backup/Apparat_retrofit/app/src/main/res/layout/item_user_recycler.xml" value="0.1" />
+        <entry key="..\:/project/backup/Apparat_retrofit/app/src/main/res/layout/nav_header.xml" value="0.1" />
+        <entry key="..\:/project/backup/Apparat_retrofit/app/src/main/res/layout/sport_item.xml" value="0.1" />
+        <entry key="..\:/project/backup/Apparat_retrofit/app/src/main/res/layout/toolbar.xml" value="0.1" />
+        <entry key="..\:/project/backup/Apparat_retrofit/app/src/main/res/menu/bottom_nav.xml" value="0.12395833333333334" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
