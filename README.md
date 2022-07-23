@@ -2,5 +2,5 @@
 In this app we can play videos with different category.
 
 ## Component use ##
-+Retrofit2
-+Rxjava
++ Retrofit2
++ Rxjava
