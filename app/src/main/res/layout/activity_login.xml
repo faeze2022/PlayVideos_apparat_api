@@ -19,23 +19,27 @@
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_margin="16dp">
+            android:layout_margin="16sp">
 
             <androidx.appcompat.widget.AppCompatImageView
                 android:id="@+id/img_login_forward"
-                android:layout_width="30dp"
-                android:layout_height="30dp"
-                android:layout_alignParentRight="true"
-                app:srcCompat="@drawable/ic_forward_black" />
+                android:layout_width="30sp"
+                android:layout_height="30sp"
+                android:layout_alignParentStart="true"
+                app:srcCompat="@drawable/ic_forward_black"
+                android:layout_alignParentLeft="true" />
 
             <TextView
                 android:id="@+id/tv_login"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_toLeftOf="@id/img_login_forward"
-                android:paddingRight="9dp"
-                android:text="ورود"
-                android:textSize="21dp" />
+                android:layout_toStartOf="@+id/img_login_forward"
+                android:paddingStart="9sp"
+                android:text="@string/input"
+                android:textSize="21sp"
+                android:paddingRight="9sp"
+                android:layout_toLeftOf="@+id/img_login_forward"
+                android:paddingLeft="9sp" />
 
         </RelativeLayout>
 
@@ -47,7 +51,7 @@
         android:layout_gravity="center"
         android:gravity="center_vertical"
         android:orientation="vertical"
-        android:padding="20dp"
+        android:padding="20sp"
         tools:ignore="MissingConstraints">
 
         <TextView
@@ -55,23 +59,23 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:layout_marginTop="70dp"
-            android:text="اگر در آپارات حساب کاربری ندارید ثبت نام کنید"
+            android:layout_marginTop="70sp"
+            android:text="@string/register"
             android:textColor="@color/color_font_title"
-            android:textSize="20dp" />
+            android:textSize="20sp" />
 
         <Button
             android:id="@+id/btn_login_creat"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="8dp"
-            android:text="ایجاد حساب کاربری" />
+            android:layout_marginTop="8sp"
+            android:text="@string/create" />
 
         <View
             android:id="@+id/view_login"
             android:layout_width="match_parent"
-            android:layout_height="2dp"
-            android:layout_marginTop="10dp"
+            android:layout_height="11sp"
+            android:layout_marginTop="10sp"
             android:background="#aaa" />
 
         <TextView
@@ -79,25 +83,26 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:layout_marginTop="7dp"
-            android:text="اگر در آپارات حساب کاربری دارید وارد شوید:"
+            android:layout_marginTop="7sp"
+            android:text="@string/account"
             android:textColor="@color/color_font_title"
-            android:textSize="20dp" />
+            android:textSize="20sp" />
 
         <com.google.android.material.textfield.TextInputLayout
             android:id="@+id/textinputlayout_email"
             style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="8dp"
-            android:hint="ایمیل">
+            android:layout_marginTop="8sp"
+            android:hint="@string/email">
 
             <com.google.android.material.textfield.TextInputEditText
                 android:id="@+id/et_dialogEdit_email"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:drawableRight="@drawable/ic_person"
-                android:drawablePadding="7dp" />
+                android:drawableEnd="@drawable/ic_person1"
+                android:drawablePadding="7sp"
+                android:drawableRight="@drawable/ic_person1" />
 
         </com.google.android.material.textfield.TextInputLayout>
 
@@ -106,15 +111,16 @@
             style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="8dp"
-            android:hint="پسورد">
+            android:layout_marginTop="8sp"
+            android:hint="@string/password">
 
             <com.google.android.material.textfield.TextInputEditText
                 android:id="@+id/et_dialogEdit_password"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:drawableRight="@drawable/ic_person"
-                android:drawablePadding="7dp" />
+                android:drawableEnd="@drawable/ic_person1"
+                android:drawablePadding="7sp"
+                android:drawableRight="@drawable/ic_person1" />
 
         </com.google.android.material.textfield.TextInputLayout>
 
@@ -122,8 +128,8 @@
             android:id="@+id/btn_login_login"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="8dp"
-            android:text="ورود" />
+            android:layout_marginTop="8sp"
+            android:text="@string/input" />
 
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

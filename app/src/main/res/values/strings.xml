@@ -22,5 +22,12 @@
     <string name="hint_email">Email</string>
     <string name="hint_password">Password</string>
 
+    <string name="password">پسورد</string>
+    <string name="input">ورود</string>
+    <string name="account">اگر در آپارات حساب کاربری دارید وارد شوید:</string>
+    <string name="register">اگر در آپارات حساب کاربری ندارید ثبت نام کنید</string>
+    <string name="create">ایجاد حساب کاربری</string>
+    <string name="email">ایمیل</string>
+
 
 </resources>
